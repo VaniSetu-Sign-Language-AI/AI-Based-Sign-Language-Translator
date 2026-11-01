@@ -680,8 +680,8 @@
         if ($("smtpHost")) $("smtpHost").value = cfg.smtp_host || "smtp.gmail.com";
         if ($("smtpPort")) $("smtpPort").value = cfg.smtp_port || 587;
         if ($("smtpUseTls")) $("smtpUseTls").checked = cfg.use_tls !== false;
-        if ($("smtpSender")) $("smtpSender").value = cfg.sender_email || "gaikwadgaurav250@gmail.com";
-        if ($("smtpRecipient")) $("smtpRecipient").value = cfg.default_recipient || "doxpro26@gmail.com, gaikwadgaurav685@gmail.com";
+        if ($("smtpSender")) $("smtpSender").value = cfg.sender_email || "tarhekargayatri100@gmail.com";
+        if ($("smtpRecipient")) $("smtpRecipient").value = cfg.default_recipient || "ayushghatol99@gmail.com, tarhekargayatri100@gmail.com";
         if ($("smtpPassword") && cfg.password_configured) {
           $("smtpPassword").placeholder = "•••••••• (Password set)";
         }
