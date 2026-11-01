@@ -10,7 +10,7 @@ End-to-end **Sign ⇄ Text** system built like a production ML service:
 | **4. Serving** | Flask: Sign→Text (`/api/predict` from webcam snapshot/upload) + Text→Sign (per-character sign cards) |
 
 ```
-D:\mc0177
+D:\Project Code
 ├── app/                  # Flask service
 │   ├── app.py            # factory, /api/* endpoints
 │   ├── templates/index.html
